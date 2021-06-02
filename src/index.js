@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CicloVidaComponent from './Componentes/CicloVidaComponent';
+import MiPrimerFormulario from './Componentes/MiPrimerFormulario';
+import RegistroUsuario from './Componentes/Formulariomaterial';
+import Usuarios from './Componentes/Usuarios';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RegistroUsuario/>
+      <Usuarios/>
   </React.StrictMode>,
   document.getElementById('root')
 );
